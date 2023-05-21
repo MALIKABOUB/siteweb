@@ -1,0 +1,657 @@
+<html lang="site">
+  
+  <body>
+    <video
+    margin-left: auto;
+    margin-right: auto;
+    autoplay muted loop>
+      <link rel="stylesheet" href="mp4">
+      <source src="bug1.mp4" type="video/mp4">
+      </video>
+    </body>
+	<style>
+		.thx{
+      position: fixed;
+		  left:20%;
+		  transform:translateX(-50%);
+		  bottom: 15px;
+		}
+		nav{
+		  width: 10%;
+		  position: fixed;
+		  top:10px;
+		  text-align:center;
+		}
+		nav a{
+		  font-family: 'Oswald', sans-serif;
+		  font-weight:500;
+		  text-transform:uppercase;
+		  text-decoration:none;
+		  color:#16151b;
+		  margin:0 15px;
+		  font-size:16px;
+		  letter-spacing:1px;
+		  position:relative;
+		  display:inline-block;
+		}
+		nav a:before{
+		  content:'';
+		  position: absolute;
+		  width: 100%;
+		  height: 3px;
+		  background:#16151b;
+		  top:47%;
+		  animation:out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+		}
+		nav a:hover:before{
+		  animation:in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+		}
+		@keyframes in{
+		  0%{
+			width: 0;
+			left:0;
+			right:auto;
+		  }
+		  100%{
+			left:0;
+			right:auto;
+			width: 100%;
+		  }
+		}
+		@keyframes out{
+		  0%{
+			width:100%;
+			left: auto;
+			right: 0;
+		  }
+		  100%{
+			width: 0;
+			left: auto;
+			right: 0;
+		  }
+		}
+		@keyframes show{
+		  0%{
+			opacity:0;
+			transform:translateY(-10px);
+		  }
+		  100%{
+			opacity:1;
+			transform:translateY(0);
+		  }
+		}
+		
+		@for $i from 1 through 5 {
+		  nav a:nth-child(#{$i}){
+			animation:show .2s #{$i*0.1+1}s ease 1 both;
+		  }
+		}</style>
+    <h2 style="text-align:center">JEWELLERY</h2>
+
+		<nav class="header-navigation">
+      <a href="page1.html">HOME</a>
+      <a href="boucles.html">EARRINGS</a>
+			<a href="col.html">NECKLACES</a>
+      <a href="basket.html">BASKET</a>
+	  <a href="mylogin.html">LOGIN</a>
+		</nav>
+	</div>
+</header> 
+<main>
+	<div class="responsive-container">
+		<div class="grid">
+			<div class="grid-column">
+								<a class="product" href="baguespage.html">
+					<div class="product-image">
+						<img src="https://garrard.com/wp-content/uploads/2022/05/Garrard-Blaze-Collection-18ct-white-gold-cocktail-ring-with-blue-sapphires-tanzanites-aquamarines-blue-topaz-and-turquoise-2017644-2000x2000.png" />
+					</div>
+					<div class="product-content">
+						<div class="product-info">
+							<h2 class="product-title">Blaze Blue Sapphire Blue Topaz And Turquoise Cocktail Ring</h2>
+							<p class="product-price">£17,917</p>
+						</div>
+					</div>
+				</a>
+
+				<a class="product" href="#">
+					<div class="product-image">
+						<img src="https://garrard.com/wp-content/uploads/2022/05/Garrard-Blaze-Collection-18ct-yellow-gold-cocktail-ring-with-green-sapphires-green-tourmalines-tsavorites-and-chrysoprase-2017646-2048x2048.png" />
+					</div>
+					<div class="product-content">
+						<div class="product-info">
+							<h2 class="product-title">Bague Cocktail Saphir Vert Blaze, Tourmaline Verte, Tsavorite Et</h2>
+							<p class="product-price">£17,000</p>
+						</div>
+					</div>
+				</a>
+				<a class="product" href="#">
+					<div class="product-image">
+							<img src="https://garrard.com/wp-content/uploads/2022/05/Garrard-Blaze-Collection-18ct-rose-gold-cocktail-ring-with-pink-sapphires-rubellites-and-pink-opals-2017647-2000x2000.png" />
+					</div>
+					<div class="product-content">
+						<div class="product-info">
+							<h2 class="product-title">Bague cocktail saphir rose Blaze, rubellite et opale rose</h2>
+							<p class="product-price">£20,000</p>
+						</div>
+					</div>
+				</a>
+			</div>
+			
+<!-- 2 -->
+			<div class="grid-column">
+				<a class="product" href="baguespage.html">
+					<div class="product-image">
+						<img src="https://garrard.com/wp-content/uploads/2021/12/Garrard-1735-collection-Sapphire-Oval-Ring-in-Platinum-with-Diamonds-JR17PT03-Hero-View.png" />
+					</div>
+					<div class="product-content">
+						<div class="product-info">
+							<h2 class="product-title">Sapphire Ring In Platinum with Diamonds</h2>
+							<p class="product-price">£10,511</p>
+						</div>
+					</div>
+				</a>
+				<a class="product" href="#">
+					<div class="product-image"> 
+						<img src="https://garrard.com/wp-content/uploads/2021/12/Garrard-1735-jewellery-collection-Emerald-Oval-Double-Cluster-Ring-In-Platinium-with-Diamonds-JR17PT07-Hero-View-2000x2000.png" />
+					</div>
+					<div class="product-content">
+						<div class="product-info">
+							<h2 class="product-title">Sapphire Ring In Platinum with Diamonds</h2>
+							<p class="product-price">£10,417</p>
+						</div>
+					</div>
+				</a>
+				<a class="product" href="#">
+					<div class="product-image">
+						<img src="https://garrard.com/wp-content/uploads/2021/12/Garrard-1735-jewellery-collection-Aquamarine-Double-Cluster-Ring-In-Platinum-with-Diamonds-JR17PT11-Hero-View-2000x2000.png" />
+					</div>
+					<div class="product-content">
+						<div class="product-info">
+							<h2 class="product-title">Bague Rubis Double Grappe</h2>
+							<p class="product-price">£10,511</p>
+						</div>
+						
+					</div>
+				</a>
+				<!-- 3 -->
+			</div>
+			<div class="grid-column">
+				<a class="product" href="#">
+					<div class="product-image">
+						<img src="https://garrard.com/wp-content/uploads/2022/07/Garrard-Bridal-Jewellery-Cherish-Round-Brilliant-Diamond-Solitaire-Engagement-Ring-_-In-Platinum-with-Diamonds_2017552-1-2048x2048.png" />
+					</div>
+					<div class="product-content">
+						<div class="product-info">
+							<h2 class="product-title">Bague de fiançailles solitaire diamant brillant rond Cherish</h2>
+							<p class="product-price">£30,000</p>
+						</div>
+					</div>
+				</a>
+				<div class="grid-column">
+					<a class="product" href="#">
+						<div class="product-image">
+							<img src="https://garrard.com/wp-content/uploads/2021/11/Garrard-Charisma-Round-Brilliant-Diamond-Three-Stone-Engagement-Ring-_-In-Platinum-with-Baguette-Cut-Diamonds_2014496-2048x2048.png" />
+						</div>
+						<div class="product-content">
+							<div class="product-info">
+								<h2 class="product-title">Bague de fiançailles trois pierres diamant brillant rond Charisma</h2>
+								<p class="product-price">£20,000</p>
+							</div>
+						</div>
+					</a>
+				<a class="product" href="#">
+					<div class="product-image">
+						<img src="https://garrard.com/wp-content/uploads/2021/11/Garrard-Bridal-collection-Cherish-Cushion-Cut-Diamond-Solitaire-Engagement-Ring-In-18ct-White-Gold-with-Diamond-2017571-Hero-2048x2048.png" />
+					</div>
+					<div class="product-content">
+						<div class="product-info">
+							<h2 class="product-title">Bague de fiançailles solitaire diamant taille coussin Cherish</h2>
+							<p class="product-price">£40,000</p>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="credits">
+		<div class="responsive-container">
+		<h3>Always one of a kind, our high jewellery rings are beautiful, bold statement pieces that stand alone as wearable works of art.</h3>
+		</div>
+	</div>
+</main>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+	margin: 0;
+}
+
+body {
+	scroll-behavior: smooth;
+	line-height: 1.5;
+	background-color: #FFF;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+a {
+	color: inherit;
+	font-weight: bold;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+button {
+	border: 1px solid;
+	background-color: transparent;
+}
+
+// The code
+
+body {
+	font-family: "DM Sans", sans-serif;
+}
+
+.responsive-container {
+	max-width: 1080px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header {
+	border-bottom: 1px solid #d0d0d0;
+	min-height: 60px;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	display: flex;
+	justify-content: center;
+}
+
+.header-content {
+	display: flex;
+	width: 100%;
+	max-width: 2000px;
+	padding-left: 1.25rem; 
+	padding-right: 1.25rem;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-navigation {
+	display: flex;
+	align-items: center;
+	a {
+		margin-left: 1.5rem;
+		text-decoration: none;
+		font-size: 1rem;
+	}
+}
+
+.link-button {
+	display: flex;
+	align-items: center;
+	background-color: #000;
+	border-radius: 0.375rem;
+	padding: 0.5em 1.25em;
+	color: #fff;
+	i {
+		font-size: 1.25rem;
+		margin-left: 0.5rem;
+	}
+}
+
+.logo {
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+
+main {
+	padding-top: 2rem;
+	padding-bottom: 6rem;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2rem;
+}
+
+.grid-column {
+	display: flex;
+	flex-direction: column;
+	& > * + * {
+		margin-top: 2rem;
+	}
+}
+
+.product {
+	border-radius: 0.25rem;
+	text-decoration: none;
+	font-weight: 400;	
+	transition: .15s ease;
+	overflow: hidden;
+	&:hover, &:focus {
+		outline: none;
+		box-shadow: 0 0 0 0.25rem pink;
+		.product-content {
+			border-color: transparent;
+		}
+	}
+}
+
+.product-image {
+	border-radius: 0.25rem 0.25rem 0 0;
+	overflow: hidden;
+}
+
+.product-content {
+	padding: 1rem;
+	border-left: 1px solid #dedede;
+	border-right: 1px solid #dedede;
+	border-bottom: 1px solid #dedede;
+	border-radius: 0 0 0.25rem 0.25rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	transition: .15s ease;
+	background-color: #FFF;
+}
+
+.product-action {
+	color: #000;
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: .25rem;
+	font-size: 1.25rem;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: .15s ease;
+	&:hover {
+		background-color: #ebebeb;
+	}
+}
+
+.product-info {
+	display: flex;
+	flex-direction: column;
+}
+
+.product-title {
+	font-size: 1.125rem;
+	line-height: 1.25;
+}
+
+.product-price {
+	margin-top: .25rem;
+}
+
+.credits {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin-top: 10rem;
+	color: #777;
+	font-size: .875rem;
+	a {
+		display: block;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 1.5rem;
+	}
+
+	.grid-column {
+		& > * + * {
+			margin-top: 1.5rem;
+		}
+	}
+}
+</style>
+ <!-- Site footer -->
+ <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+			<p class="text-justify"><i> About M&D </i></p>
+		  <h5> HISTORY BEGINS WITH THE FIRST WEAR </h5>
+          <p class="text-justify"><i>By Women, For Women Understanding the mindset of modern women and how aM&D jewel can fit seamlessly into their lives is the guiding force behind our all-female design team. Inspired by the passion and purpose of our clients, there is a contemporary relevance to each new jewel that represents more than quality and craftsmanship .</p>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <ul class="footer-links">
+			<p><a href="support.html">CONTACT</a></p>
+			<p><a href="CALL:0618108800">0618108800</a></p>
+			<p><a href="CALL:0618108800">SIZE GUIDE</a></p>
+			
+          </ul>
+        </div>
+		
+        <div class="col-xs-6 col-md-3">
+          <ul class="footer-links" >
+            <li><a href="mylogin.html">Login</a></li>
+           
+          </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; © 2023 M&D. All rights reserved
+          </p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="facebook" href=""><i class="fa fa-facebook"></i></a></li>
+            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>
+<style>
+.site-footer
+{
+background-color:#0d044f;
+padding:45px 0 20px;
+font-size:15px;
+line-height:24px;
+color:#737373;
+}
+.site-footer hr
+{
+border-top-color:#ffffff;
+opacity:0.5
+}
+.site-footer hr.small
+{
+margin:20px 0
+}
+.site-footer h6
+{
+color:#f1eded;
+font-size:16px;
+text-transform:uppercase;
+margin-top:5px;
+letter-spacing:2px
+}
+.site-footer a
+{
+color:#ffffff;
+}
+.site-footer a:hover
+{
+color:#ffffff;
+text-decoration:none;
+}
+.footer-links
+{
+padding-left:0;
+list-style:none
+}
+.footer-links li
+{
+display:block
+}
+.footer-links a
+{
+color:#ffffff;
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+color:#ffffff;
+text-decoration:none;
+}
+.footer-links.inline li
+{
+display:inline-block
+}
+.site-footer .social-icons
+{
+text-align:right
+}
+.site-footer .social-icons a
+{
+width:40px;
+height:40px;
+line-height:40px;
+margin-left:6px;
+margin-right:0;
+border-radius:100%;
+background-color:#ffffff
+}
+.copyright-text
+{
+margin:0
+}
+@media (max-width:991px)
+{
+.site-footer [class^=col-]
+{
+  margin-bottom:30px
+}
+}
+@media (max-width:767px)
+{
+.site-footer
+{
+  padding-bottom:0
+}
+.site-footer .copyright-text,.site-footer .social-icons
+{
+  text-align:center
+}
+}
+.social-icons
+{
+padding-left:0;
+margin-bottom:0;
+list-style:none
+}
+.social-icons li
+{
+display:inline-block;
+margin-bottom:4px
+}
+.social-icons li.title
+{
+margin-right:15px;
+text-transform:uppercase;
+color:#96a2b2;
+font-weight:700;
+font-size:13px
+}
+.social-icons a{
+background-color:#000000;
+color:#000000;
+font-size:16px;
+display:inline-block;
+line-height:44px;
+width:44px;
+height:44px;
+text-align:center;
+margin-right:8px;
+border-radius:100%;
+-webkit-transition:all .2s linear;
+-o-transition:all .2s linear;
+transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+color:#000000;
+background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+line-height:34px;
+height:34px;
+width:34px;
+font-size:14px
+}
+.social-icons a.facebook:hover
+{
+background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+background-color:#21bf3b
+}
+@media (max-width:767px)
+{
+.social-icons li.title
+{
+  display:block;
+  margin-right:0;
+  font-weight:600
+}
+}
+</style>
